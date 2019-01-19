@@ -27,3 +27,12 @@ body {
     height: 0;
     visibility: hidden;
 }
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+.row { /* from grid system */
+    max-width: 1140px; 
+    margin: 0 auto; /* automatically centered */
+}
