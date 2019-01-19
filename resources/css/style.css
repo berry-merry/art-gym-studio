@@ -56,6 +56,24 @@ h1 {
     letter-spacing: 1px;
 }
 
+/* ----- LINKS ----- */
+
+a:link,
+a:visited {
+    color: #64DD17;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #64DD17;
+    transition: border-bottom 0.2s, color 0.2s;
+    
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 
 
 /* ----------------------------------------------- */
