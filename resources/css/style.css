@@ -74,7 +74,48 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
 
+.btn-full:link,
+.btn-full:visited {
+    background-color: #64DD17;
+    border: 1px solid #64DD17;
+    color: #fff;
+    margin-right: 15px;
+    box-shadow: 1px 1px 1px 0.5px rgba(36, 32, 32, 0.122);
+}
+
+.btn-ghost:link,
+.btn-ghost:visited,{
+    border: 1px solid #64DD17;
+    color: #64DD17;;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #56be14
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #56be14;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #56be14;
+    color: #fff;
+}
 
 /* ----------------------------------------------- */
 /* HEADER */
