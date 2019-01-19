@@ -84,6 +84,25 @@ h2:after { /* displays always after h2 */
     margin-top: 30px;
 }
 
+/************* PARAGRAPHS ****************/
+
+.long-copy {
+    line-height: 145%;
+    width: 70%; /* 15 + 70 + 15 = 100 [%] */
+    margin-left: 15%;
+}
+
+
+/***************** ICONS ********************/
+
+/* ----- ICONS ----- */
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #64DD17;
+    margin-bottom: 10px;
+}
+
 /* ----- LINKS ----- */
 
 a:link,
@@ -203,4 +222,12 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 3px solid #88ff25;
+}
+
+/* ----------------------------------------------- */
+/* WHAT WE DO */
+/* ----------------------------------------------- */
+
+.section-what-we-do .long-copy {
+    margin-bottom: 30px;
 }
