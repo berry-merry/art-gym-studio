@@ -92,6 +92,17 @@ h2:after { /* displays always after h2 */
     margin-left: 15%;
 }
 
+
+/***************** ICONS ********************/
+
+/* ----- ICONS ----- */
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #64DD17;
+    margin-bottom: 10px;
+}
+
 /* ----- LINKS ----- */
 
 a:link,
