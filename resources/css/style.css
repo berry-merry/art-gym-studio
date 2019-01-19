@@ -37,6 +37,10 @@ body {
     margin: 0 auto; /* automatically centered */
 }
 
+section {
+    padding: 80px 0; 
+}
+
 /************* HEADINGS *************/
 
 h1,
@@ -54,6 +58,30 @@ h1 {
     font-family: 'Pontano Sans', sans-serif;
     word-spacing: 4px;
     letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    font-family: 'Bevan', sans-serif;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after { /* displays always after h2 */
+    display: block;
+    height: 2px;
+    background-color: #64DD17;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /* ----- LINKS ----- */
