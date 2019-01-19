@@ -13,7 +13,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -55,6 +55,8 @@ h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
 }
+
+
 
 /* ----------------------------------------------- */
 /* HEADER */
