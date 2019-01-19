@@ -37,6 +37,7 @@ body {
     margin: 0 auto; /* automatically centered */
 }
 
+
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
@@ -57,10 +58,15 @@ header {
 }
 
 .hero-text-box {
-    position: relative;
-    width: 1140px;
-    left: 55%;
-    transform: translateY(10%); 
+    text-align: right;
+}
+
+.hero-text-box span {
+    font-family: 'Bevan', 'sans-serif';
+    font-size: 120%;
+    letter-spacing: 5px;
+    display: inline-block;
+    padding-top: 1%;
 }
 /*------------------ MAIN NAVI -------------------- */
 .main-nav {
