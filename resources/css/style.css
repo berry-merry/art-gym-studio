@@ -56,6 +56,12 @@ header {
     margin-top: 20px;
 }
 
+.hero-text-box {
+    position: relative;
+    width: 1140px;
+    left: 55%;
+    transform: translateY(10%); 
+}
 /*------------------ MAIN NAVI -------------------- */
 .main-nav {
     float: right;
