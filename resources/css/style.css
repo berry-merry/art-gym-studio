@@ -84,6 +84,7 @@ h2:after { /* displays always after h2 */
     margin-top: 30px;
 }
 
+
 /* ----- LINKS ----- */
 
 a:link,
@@ -203,4 +204,12 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 3px solid #88ff25;
+}
+
+/* ----------------------------------------------- */
+/* WHAT WE DO */
+/* ----------------------------------------------- */
+
+.section-what-we-do .long-copy {
+    margin-bottom: 30px;
 }
