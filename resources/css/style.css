@@ -49,6 +49,13 @@ header {
     background-attachment: fixed;
 }
 
+.logo {
+    height: 200px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
 /*------------------ MAIN NAVI -------------------- */
 .main-nav {
     float: right;
