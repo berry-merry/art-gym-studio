@@ -282,3 +282,20 @@ header {
     transform: scale(1.03);
 }
 
+/* ----------------------------------------------- */
+/* CITIES SECTIONS */
+/* ----------------------------------------------- */
+
+.box img {
+    width: 100%; 
+    height: auto; /* automatically fits width */
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.city-feature ion-icon {
+    float: left;
+}
