@@ -102,6 +102,18 @@ h2:after { /* displays always after h2 */
     margin-bottom: 10px;
 }
 
+.icon-small {
+    display: inline-block;
+    width: 30px; /* if it is not displayed as inline-block (or block) you can't add width */
+    text-align: center;
+    color: #64DD17;
+    font-size: 120%;
+    margin-right: 5px;
+    /* align icons and text */
+    line-height: 120%;
+    vertical-align: middle; /* placing the element in the middle of the parent element, works with elements displayed inline */
+}
+
 /* ----- LINKS ----- */
 
 a:link,
@@ -269,3 +281,4 @@ header {
     opacity: 1;
     transform: scale(1.03);
 }
+
