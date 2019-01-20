@@ -17,10 +17,9 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden; 
 }
 
-.clearfix:after { 
+.clearfix:after { /* https://css-tricks.com/all-about-floats/ */
     content: '.';
     clear: both;
     display: block;
@@ -101,6 +100,18 @@ h2:after { /* displays always after h2 */
     display: block;
     color: #64DD17;
     margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px; /* if it is not displayed as inline-block (or block) you can't add width */
+    text-align: center;
+    color: #64DD17;
+    font-size: 120%;
+    margin-right: 5px;
+    /* align icons and text */
+    line-height: 120%;
+    vertical-align: middle; /* placing the element in the middle of the parent element, works with elements displayed inline */
 }
 
 /* ----- LINKS ----- */
@@ -230,4 +241,61 @@ header {
 
 .section-what-we-do .long-copy {
     margin-bottom: 30px;
+}
+
+/* ----------------------------------------------- */
+/****************** PHOTOS ********************/
+/* ----------------------------------------------- */
+
+.section-photos {
+    padding: 0;
+}
+
+.showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+/* ----------------------------------------------- */
+/* CITIES SECTIONS */
+/* ----------------------------------------------- */
+
+.box img {
+    width: 100%; 
+    height: auto; /* automatically fits width */
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.city-feature ion-icon {
+    float: left;
 }
