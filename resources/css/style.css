@@ -395,6 +395,27 @@ footer {
     font-size: 160%;
 }
 
+ion-icon[name=logo-facebook],
+ion-icon[name=logo-twitter],
+ion-icon[name=logo-googleplus],
+ion-icon[name=logo-instaagram] {
+    transition: color 0.2s;   
+}
+
+ion-icon[name=logo-facebook]:hover {
+    color: #3b5998; 
+}
+
+ion-icon[name=logo-instagram]:hover {
+    color: #517fa4;
+} 
+ion-icon[name=logo-twitter]:hover {
+    color: #55acee;
+}
+ion-icon[name=logo-googleplus]:hover {
+    color: #dc4e41;
+}
+
 footer p {
     color: #888;
     text-align: center;
