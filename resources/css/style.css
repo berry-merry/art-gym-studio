@@ -134,7 +134,8 @@ a:active {
 
 /* ----- BUTTONS ----- */
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -145,7 +146,8 @@ a:active {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #64DD17;
     border: 1px solid #64DD17;
     color: #fff;
@@ -154,23 +156,28 @@ a:active {
 }
 
 .btn-ghost:link,
-.btn-ghost:visited,{
+.btn-ghost:visited {
     border: 1px solid #64DD17;
     color: #64DD17;;
 }
 
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     background-color: #56be14
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     border: 1px solid #56be14;
 }
 
 .btn-ghost:hover,
-.btn-ghost:active {
+.btn-ghost:active
+ {
     border: 1px solid #56be14;
     color: #fff;
 }
@@ -299,3 +306,4 @@ header {
 .city-feature ion-icon {
     float: left;
 }
+
