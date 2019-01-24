@@ -273,6 +273,25 @@ header {
     color: #555;
 }
 
+.sticky .logo-white {
+    display: none;
+}
+.sticky .logo-black { 
+    display: block;
+ }
+
+ .sticky .logo-black img {
+    width: 70px;
+    height: auto;
+ }
+
+ .sticky .logo-black:active, .sticky .logo-black:link, .sticky .logo-black:visited
+ .sticky .logo-black:hover {
+    padding-bottom: 1px;
+    border-bottom: none; 
+    float: left;
+    margin-top: -15px;
+}
 
 /* ----------------------------------------------- */
 /* WHAT WE DO */
