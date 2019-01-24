@@ -246,6 +246,12 @@ header {
     border-bottom: 3px solid #88ff25;
 }
 
+.logo-white:link, .logo-white:active, .logo-white:visited, .logo-white:hover {
+    padding-bottom: 1px;
+    border-bottom: none;    
+}
+
+
 
 
 /* ----------------------------------------------- */
