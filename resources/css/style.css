@@ -226,6 +226,10 @@ header {
     margin-left: 40px;
 }
 
+.logo-black {
+    display: none;
+}
+
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 5px 0;
@@ -241,6 +245,8 @@ header {
 .main-nav li a:active {
     border-bottom: 3px solid #88ff25;
 }
+
+
 
 /* ----------------------------------------------- */
 /* WHAT WE DO */
