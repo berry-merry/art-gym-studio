@@ -226,6 +226,10 @@ header {
     margin-left: 40px;
 }
 
+.logo-black {
+    display: none;
+}
+
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 5px 0;
@@ -240,6 +244,54 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 3px solid #88ff25;
+}
+
+.logo-white:link, .logo-white:active, .logo-white:visited, .logo-white:hover {
+    padding-bottom: 1px;
+    border-bottom: none;    
+}
+
+
+/************** STICKY NAVI **********************/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px rgba(239, 239, 239, 0.96);
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 20px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color: #555;
+}
+
+.sticky .logo-white {
+    display: none;
+}
+.sticky .logo-black { 
+    display: block;
+ }
+
+ .sticky .logo-black img {
+    width: 70px;
+    height: auto;
+    padding-bottom: 3px;
+ }
+
+ .sticky .logo-black:active, .sticky .logo-black:link, .sticky .logo-black:visited
+ .sticky .logo-black:hover {
+    padding-bottom: 1px;
+    border-bottom: none; 
+    float: left;
+    margin-top: -15px;
 }
 
 /* ----------------------------------------------- */
